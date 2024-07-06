@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.info-section {
+  width: 50%;
+}
+
+.home-page {
+  display: flex; justify-content: space-between;
+}
+
+.inputs {
+  display: flex; flex-direction: column; gap: 7px; width: 100%;
+}
+
+.form {
+  display: flex; justify-content: space-between; gap: 30px; align-items: end;
+}
+
+.form-section {
+  border-bottom: solid 1px lightgray ; padding: 10px 10px 40px 10px
+}
+
+.info {
+  padding: 10px; overflow: scroll; height: 77vh;
+}
